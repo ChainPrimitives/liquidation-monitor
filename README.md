@@ -1,5 +1,11 @@
 # liquidation-monitor
 
+[![npm version](https://img.shields.io/npm/v/liquidation-monitor.svg)](https://www.npmjs.com/package/liquidation-monitor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/ChainPrimitives/liquidation-monitor)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ChainPrimitives/liquidation-monitor/pulls)
+
 A configurable DeFi health-factor monitoring library for lending protocols. Watches positions, checks collateral ratios against price feeds, and triggers liquidation callbacks with gas price guards and nonce management.
 
 ## Features
